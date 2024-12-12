@@ -15,9 +15,9 @@ public class Login {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (textField1.getText().equals("APELLIDO") && passwordField1.getText().equals("APELLIDO123")) {
-                    validacion.setText("Acceso exitoso");
+                    JOptionPane.showMessageDialog(null,"Acesso Exitoso");
                 }else {
-                    validacion.setText("Credenciales invalidas");
+                    JOptionPane.showMessageDialog(null,"Ingrese correctamente las credenciales");
                 }
             }
         });
