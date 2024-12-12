@@ -26,7 +26,7 @@ public class retiro {
                 JFrame frame = new JFrame("Lyxuz Oxcorp");
                 frame.setContentPane(new Transaccion().menu);
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.setPreferredSize(new Dimension(350, 200));
+                frame.setPreferredSize(new Dimension(350, 500));
                 frame.pack();
                 frame.setVisible(true);
             }

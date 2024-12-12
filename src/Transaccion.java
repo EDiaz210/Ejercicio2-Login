@@ -44,7 +44,7 @@ public class Transaccion {
                 JFrame frame = new JFrame("Lyxuz Oxcorp");
                 frame.setContentPane(new retiro().retiro);
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.setPreferredSize(new Dimension(350, 200));
+                frame.setPreferredSize(new Dimension(450, 200));
                 frame.pack();
                 frame.setVisible(true);
 
