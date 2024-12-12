@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 public class Saldo {
     private JButton button1;
     private JLabel Saldo;
+    public JPanel SaldoP;
 
     public Saldo() {
         button1.addActionListener(new ActionListener() {

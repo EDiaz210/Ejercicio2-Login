@@ -13,4 +13,5 @@ public class retiro {
     private JTextField $TextField;
     private JButton retirarButton;
     private JButton volverAlMenúButton;
+    public JPanel retiro;
 }

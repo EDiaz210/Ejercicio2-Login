@@ -4,4 +4,5 @@ public class depositar {
     private JTextField textField1;
     private JButton depositarButton;
     private JButton volverAlMenúButton;
+    public JPanel deposito;
 }
